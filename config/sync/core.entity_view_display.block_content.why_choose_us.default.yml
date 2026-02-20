@@ -1,0 +1,47 @@
+uuid: 671a1e3e-50e6-477f-aa53-98913e9de1a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.why_choose_us
+    - field.field.block_content.why_choose_us.body
+    - field.field.block_content.why_choose_us.field_taxonomy
+    - field.field.block_content.why_choose_us.field_tex
+    - field.field.block_content.why_choose_us.field_title
+  module:
+    - text
+id: block_content.why_choose_us.default
+targetEntityType: block_content
+bundle: why_choose_us
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_taxonomy:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_tex:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_title:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

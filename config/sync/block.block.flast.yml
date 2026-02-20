@@ -1,0 +1,25 @@
+uuid: aa2cf858-d598-4ef7-948d-4185ec554871
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:40006d01-ff0a-425b-a0f3-dbbf7a76e401'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: flast
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:40006d01-ff0a-425b-a0f3-dbbf7a76e401'
+settings:
+  id: 'block_content:40006d01-ff0a-425b-a0f3-dbbf7a76e401'
+  label: 'f last'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

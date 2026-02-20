@@ -1,0 +1,21 @@
+uuid: 53a5557a-0be2-40d9-b9a5-8aa0e7a8fd24
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.why_choose_us
+    - field.storage.block_content.field_title
+  module:
+    - text
+id: block_content.why_choose_us.field_title
+field_name: field_title
+entity_type: block_content
+bundle: why_choose_us
+label: title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

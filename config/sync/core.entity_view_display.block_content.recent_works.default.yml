@@ -1,0 +1,95 @@
+uuid: e9dba7fa-14ad-47b2-b9ec-b42c27533dcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.recent_works
+    - field.field.block_content.recent_works.body
+    - field.field.block_content.recent_works.field_im1
+    - field.field.block_content.recent_works.field_im2
+    - field.field.block_content.recent_works.field_im3
+    - field.field.block_content.recent_works.field_im4
+    - field.field.block_content.recent_works.field_im5
+    - field.field.block_content.recent_works.field_im6
+  module:
+    - image
+    - text
+id: block_content.recent_works.default
+targetEntityType: block_content
+bundle: recent_works
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_im1:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_im2:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_im3:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_im4:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_im5:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_im6:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 6
+    region: content
+hidden: {  }

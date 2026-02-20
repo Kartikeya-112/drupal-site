@@ -1,0 +1,25 @@
+uuid: cf2cc09e-e2b0-4071-b761-d96498f959c5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b64aa781-6972-4cdd-8692-2d7924bb5728'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: ourteam
+theme: olivero
+region: highlighted
+weight: -5
+provider: null
+plugin: 'block_content:b64aa781-6972-4cdd-8692-2d7924bb5728'
+settings:
+  id: 'block_content:b64aa781-6972-4cdd-8692-2d7924bb5728'
+  label: 'Our team'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: a1495e8e-bac7-4d9f-a249-3d1e63b68b54
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:hero_block:3d23d253-c586-49b9-966b-7f4a05a237cd'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: herosection
+theme: olivero
+region: highlighted
+weight: -10
+provider: null
+plugin: 'block_content:3d23d253-c586-49b9-966b-7f4a05a237cd'
+settings:
+  id: 'block_content:3d23d253-c586-49b9-966b-7f4a05a237cd'
+  label: 'Hero section'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

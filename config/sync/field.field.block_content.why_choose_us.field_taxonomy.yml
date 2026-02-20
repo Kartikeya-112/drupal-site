@@ -1,0 +1,29 @@
+uuid: 3dbf6af6-22c7-4388-9ad8-91687fa24e50
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.why_choose_us
+    - field.storage.block_content.field_taxonomy
+    - taxonomy.vocabulary.tags
+id: block_content.why_choose_us.field_taxonomy
+field_name: field_taxonomy
+entity_type: block_content
+bundle: why_choose_us
+label: taxonomy
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
