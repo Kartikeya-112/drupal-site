@@ -1,0 +1,23 @@
+uuid: 3b933887-c78e-4d8e-9983-58af5107a544
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.recent_work
+  module:
+    - text
+id: node.recent_work.body
+field_name: body
+entity_type: node
+bundle: recent_work
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

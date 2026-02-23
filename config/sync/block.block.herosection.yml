@@ -11,7 +11,7 @@ dependencies:
 id: herosection
 theme: olivero
 region: highlighted
-weight: -10
+weight: -11
 provider: null
 plugin: 'block_content:3d23d253-c586-49b9-966b-7f4a05a237cd'
 settings:

@@ -1,14 +1,17 @@
-uuid: 671a1e3e-50e6-477f-aa53-98913e9de1a1
+uuid: 0e35095e-2389-4553-bf10-ed5fc7262c61
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.why_choose_us
     - field.field.block_content.why_choose_us.body
-    - field.field.block_content.why_choose_us.field_taxonomy
-    - field.field.block_content.why_choose_us.field_tex
-    - field.field.block_content.why_choose_us.field_title
+    - field.field.block_content.why_choose_us.field_service_card
+    - field.field.block_content.why_choose_us.field_service_card3
+    - field.field.block_content.why_choose_us.field_service_card4
+    - field.field.block_content.why_choose_us.field_services_card
+    - field.field.block_content.why_choose_us.field_text
   module:
+    - entity_reference_revisions
     - text
 id: block_content.why_choose_us.default
 targetEntityType: block_content
@@ -22,26 +25,48 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_taxonomy:
-    type: entity_reference_label
+  field_service_card:
+    type: entity_reference_revisions_entity_view
     label: above
     settings:
-      link: true
-    third_party_settings: {  }
-    weight: 3
-    region: content
-  field_tex:
-    type: basic_string
-    label: above
-    settings: {  }
+      view_mode: default
+      link: ''
     third_party_settings: {  }
     weight: 2
     region: content
-  field_title:
-    type: text_default
+  field_service_card3:
+    type: entity_reference_revisions_entity_view
     label: above
-    settings: {  }
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_service_card4:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_services_card:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_text:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
     region: content
 hidden: {  }

@@ -1,9 +1,9 @@
-uuid: 8efd3083-6302-4bdc-a052-5fd18ddadbfc
+uuid: e99925e0-dd9b-4e2b-8ac4-9fd485fd2507
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:why_choose_us:2d9559cf-8b7b-416c-94d4-366cc9b08550'
+    - 'block_content:why_choose_us:ef25beb4-65d1-4a46-9aa9-b08538bc7274'
   module:
     - block_content
   theme:
@@ -11,12 +11,12 @@ dependencies:
 id: whychooseus
 theme: olivero
 region: highlighted
-weight: -9
+weight: -8
 provider: null
-plugin: 'block_content:2d9559cf-8b7b-416c-94d4-366cc9b08550'
+plugin: 'block_content:ef25beb4-65d1-4a46-9aa9-b08538bc7274'
 settings:
-  id: 'block_content:2d9559cf-8b7b-416c-94d4-366cc9b08550'
-  label: 'Why choose us'
+  id: 'block_content:ef25beb4-65d1-4a46-9aa9-b08538bc7274'
+  label: 'why choose us'
   label_display: visible
   provider: block_content
   status: true

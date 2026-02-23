@@ -1,0 +1,23 @@
+uuid: ee58d906-c438-4a0c-980b-be657df7d548
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_button
+    - paragraphs.paragraphs_type.pricing_card
+  module:
+    - link
+id: paragraph.pricing_card.field_button
+field_name: field_button
+entity_type: paragraph
+bundle: pricing_card
+label: button
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

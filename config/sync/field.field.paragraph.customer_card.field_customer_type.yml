@@ -1,0 +1,19 @@
+uuid: dd2239da-8a58-41ee-9b87-4a7b9f2f9b3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_customer_type
+    - paragraphs.paragraphs_type.customer_card
+id: paragraph.customer_card.field_customer_type
+field_name: field_customer_type
+entity_type: paragraph
+bundle: customer_card
+label: customer_type
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,9 +1,9 @@
-uuid: d22f2d6b-5d52-4bac-b497-db3a5fe42619
+uuid: 7b79ea14-9cfc-4498-a071-5ff7d54cb1a4
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:our_services:b54ff5f6-1f3b-4428-999c-c481396a643b'
+    - 'block_content:our_services:20a9b04c-a07a-40c7-ac97-c9a8e9af0385'
   module:
     - block_content
   theme:
@@ -13,9 +13,9 @@ theme: olivero
 region: highlighted
 weight: -7
 provider: null
-plugin: 'block_content:b54ff5f6-1f3b-4428-999c-c481396a643b'
+plugin: 'block_content:20a9b04c-a07a-40c7-ac97-c9a8e9af0385'
 settings:
-  id: 'block_content:b54ff5f6-1f3b-4428-999c-c481396a643b'
+  id: 'block_content:20a9b04c-a07a-40c7-ac97-c9a8e9af0385'
   label: 'Our Services'
   label_display: visible
   provider: block_content

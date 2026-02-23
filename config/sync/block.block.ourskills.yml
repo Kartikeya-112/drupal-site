@@ -1,0 +1,25 @@
+uuid: c437ff56-e34a-467f-bc8c-b413b04d7b7a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:our_skills:bd67e594-b857-4881-9c3e-505c889e24af'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: ourskills
+theme: olivero
+region: highlighted
+weight: -9
+provider: null
+plugin: 'block_content:bd67e594-b857-4881-9c3e-505c889e24af'
+settings:
+  id: 'block_content:bd67e594-b857-4881-9c3e-505c889e24af'
+  label: 'Our skills'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

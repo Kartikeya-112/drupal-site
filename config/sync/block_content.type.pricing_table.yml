@@ -1,0 +1,8 @@
+uuid: 8d6d27a7-54d8-4048-a2cc-a68d1c9f0250
+langcode: en
+status: true
+dependencies: {  }
+id: pricing_table
+label: 'Pricing Table'
+revision: 0
+description: 'This table contains description about the companies products.'

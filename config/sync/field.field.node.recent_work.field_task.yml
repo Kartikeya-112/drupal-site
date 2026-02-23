@@ -1,0 +1,21 @@
+uuid: 488be428-5f52-4aa1-be67-4b6fb78c8e09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_task
+    - node.type.recent_work
+id: node.recent_work.field_task
+field_name: field_task
+entity_type: node
+bundle: recent_work
+label: task
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings: {  }
+field_type: entity_reference

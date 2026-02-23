@@ -1,0 +1,21 @@
+uuid: 11c8c772-8e3c-4f7d-9931-f490012f5e01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_rate
+    - paragraphs.paragraphs_type.pricing_card
+  module:
+    - text
+id: paragraph.pricing_card.field_rate
+field_name: field_rate
+entity_type: paragraph
+bundle: pricing_card
+label: Rate
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

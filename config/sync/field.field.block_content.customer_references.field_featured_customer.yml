@@ -1,0 +1,29 @@
+uuid: a71e3ae0-5a96-4fd7-9690-2d5bdf1fcfda
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.customer_references
+    - field.storage.block_content.field_featured_customer
+    - node.type.testimonials
+id: block_content.customer_references.field_featured_customer
+field_name: field_featured_customer
+entity_type: block_content
+bundle: customer_references
+label: 'Featured Customer'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      testimonials: testimonials
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

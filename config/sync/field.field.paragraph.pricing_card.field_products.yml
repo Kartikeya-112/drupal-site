@@ -1,0 +1,21 @@
+uuid: 27803e67-7430-4676-99be-c8f14047ff55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_products
+    - paragraphs.paragraphs_type.pricing_card
+  module:
+    - options
+id: paragraph.pricing_card.field_products
+field_name: field_products
+entity_type: paragraph
+bundle: pricing_card
+label: products
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

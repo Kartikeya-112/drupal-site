@@ -1,0 +1,31 @@
+uuid: 93c6ad24-41ea-4001-bdfd-e3bc09840c23
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bar_paragraph.field_title
+    - field.field.paragraph.bar_paragraph.field_value
+    - paragraphs.paragraphs_type.bar_paragraph
+id: paragraph.bar_paragraph.default
+targetEntityType: paragraph
+bundle: bar_paragraph
+mode: default
+content:
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_value:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

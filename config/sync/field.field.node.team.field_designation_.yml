@@ -1,0 +1,21 @@
+uuid: ef6026b6-2686-42b3-8ed8-10b4d7fb8f5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_designation_
+    - node.type.team
+  module:
+    - text
+id: node.team.field_designation_
+field_name: field_designation_
+entity_type: node
+bundle: team
+label: 'designation '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

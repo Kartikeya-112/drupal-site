@@ -1,0 +1,10 @@
+uuid: b14ce116-ce96-4f10-8f0a-53f7e02ff571
+langcode: en
+status: true
+dependencies: {  }
+id: bar_paragraph
+label: 'Bar Paragraph'
+icon_uuid: null
+icon_default: null
+description: 'This paragraph contains bars and their values'
+behavior_plugins: {  }

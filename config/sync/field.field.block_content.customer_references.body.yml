@@ -1,0 +1,23 @@
+uuid: 04e54850-f1c8-4074-93d0-f291bae9b4f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.customer_references
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.customer_references.body
+field_name: body
+entity_type: block_content
+bundle: customer_references
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

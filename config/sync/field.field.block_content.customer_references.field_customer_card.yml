@@ -1,0 +1,37 @@
+uuid: 6a9e580d-448f-472b-b2ff-5a41cc37b5a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.customer_references
+    - field.storage.block_content.field_customer_card
+    - paragraphs.paragraphs_type.customer_card
+  module:
+    - entity_reference_revisions
+id: block_content.customer_references.field_customer_card
+field_name: field_customer_card
+entity_type: block_content
+bundle: customer_references
+label: 'customer card'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      customer_card: customer_card
+    negate: 0
+    target_bundles_drag_drop:
+      customer_card:
+        weight: 4
+        enabled: true
+      service_card:
+        weight: 5
+        enabled: false
+      service_cards:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

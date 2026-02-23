@@ -1,0 +1,23 @@
+uuid: e1fcdc11-7036-457e-8ca6-d07fadba25b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_value
+    - paragraphs.paragraphs_type.bar_paragraph
+id: paragraph.bar_paragraph.field_value
+field_name: field_value
+entity_type: paragraph
+bundle: bar_paragraph
+label: value
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

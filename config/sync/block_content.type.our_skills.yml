@@ -1,0 +1,8 @@
+uuid: 762086b1-bcc4-419a-8bed-228faa3f97d7
+langcode: en
+status: true
+dependencies: {  }
+id: our_skills
+label: 'Our Skills'
+revision: 0
+description: 'The percentage of efficiency of our company in different products '

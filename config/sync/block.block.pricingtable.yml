@@ -1,0 +1,25 @@
+uuid: b22d6880-49df-42b8-8236-77f358e17692
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:pricing_table:8c0a031d-24d8-4cd1-bd2a-a60e3474eaa7'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: pricingtable
+theme: olivero
+region: highlighted
+weight: -4
+provider: null
+plugin: 'block_content:8c0a031d-24d8-4cd1-bd2a-a60e3474eaa7'
+settings:
+  id: 'block_content:8c0a031d-24d8-4cd1-bd2a-a60e3474eaa7'
+  label: 'pricing table'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

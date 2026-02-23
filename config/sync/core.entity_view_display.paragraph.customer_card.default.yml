@@ -1,0 +1,53 @@
+uuid: 08aa164d-c329-4e83-9471-1938ead07967
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.customer_card.field_customer_name
+    - field.field.paragraph.customer_card.field_customer_type
+    - field.field.paragraph.customer_card.field_img1
+    - field.field.paragraph.customer_card.field_review
+    - paragraphs.paragraphs_type.customer_card
+  module:
+    - image
+id: paragraph.customer_card.default
+targetEntityType: paragraph
+bundle: customer_card
+mode: default
+content:
+  field_customer_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_customer_type:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_img1:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_review:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

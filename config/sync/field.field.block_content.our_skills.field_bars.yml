@@ -1,0 +1,43 @@
+uuid: 3404bd25-9571-4d18-9464-e0b49989d9ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_skills
+    - field.storage.block_content.field_bars
+    - paragraphs.paragraphs_type.bar_paragraph
+  module:
+    - entity_reference_revisions
+id: block_content.our_skills.field_bars
+field_name: field_bars
+entity_type: block_content
+bundle: our_skills
+label: bars
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      bar_paragraph: bar_paragraph
+    negate: 0
+    target_bundles_drag_drop:
+      bar_paragraph:
+        weight: 6
+        enabled: true
+      customer_card:
+        weight: 7
+        enabled: false
+      pricing_card:
+        weight: 8
+        enabled: false
+      service_card:
+        weight: 9
+        enabled: false
+      service_cards:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

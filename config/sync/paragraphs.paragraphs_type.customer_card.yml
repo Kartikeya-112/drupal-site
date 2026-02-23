@@ -1,0 +1,10 @@
+uuid: 780d775a-d065-4f20-ac29-7aec51d896f7
+langcode: en
+status: true
+dependencies: {  }
+id: customer_card
+label: 'customer card'
+icon_uuid: null
+icon_default: null
+description: 'It contains customers information.'
+behavior_plugins: {  }

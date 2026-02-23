@@ -1,0 +1,26 @@
+uuid: 4a8ea2af-ed74-4db9-a493-f32e883b4d5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.contact_form
+  module:
+    - webform
+  theme:
+    - olivero
+id: webform
+theme: olivero
+region: content_below
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Get In Touch'
+  label_display: visible
+  provider: webform
+  webform_id: contact_form
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility: {  }

@@ -1,0 +1,8 @@
+uuid: f6ad67d5-e764-47ad-8e20-794739db3e7f
+langcode: en
+status: true
+dependencies: {  }
+id: customer_references
+label: 'customer references'
+revision: 0
+description: 'This block contains cusomer details and their reviews.'

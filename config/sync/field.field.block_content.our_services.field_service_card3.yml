@@ -1,0 +1,32 @@
+uuid: b6a2a71d-dfa5-4997-b9fb-dbad11ea78b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_services
+    - field.storage.block_content.field_service_card3
+  module:
+    - entity_reference_revisions
+id: block_content.our_services.field_service_card3
+field_name: field_service_card3
+entity_type: block_content
+bundle: our_services
+label: 'service card'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      service_card:
+        weight: 3
+        enabled: false
+      service_cards:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,16 +1,17 @@
-uuid: be390c43-9bb3-4a1f-8a5b-f1e78dec6a68
+uuid: c64b3ab4-b3a8-4fee-a6d6-138f4b210951
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.our_services
     - field.field.block_content.our_services.body
-    - field.field.block_content.our_services.field_img1
-    - field.field.block_content.our_services.field_img2
-    - field.field.block_content.our_services.field_img3
-    - field.field.block_content.our_services.field_img4
-    - field.field.block_content.our_services.field_phoneimg
+    - field.field.block_content.our_services.field_heroimg
+    - field.field.block_content.our_services.field_service_card
+    - field.field.block_content.our_services.field_service_card3
+    - field.field.block_content.our_services.field_service_card4
+    - field.field.block_content.our_services.field_services_card
   module:
+    - entity_reference_revisions
     - image
     - text
 id: block_content.our_services.default
@@ -25,51 +26,7 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_img1:
-    type: image
-    label: above
-    settings:
-      image_link: ''
-      image_style: ''
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
-    weight: 1
-    region: content
-  field_img2:
-    type: image
-    label: above
-    settings:
-      image_link: ''
-      image_style: ''
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  field_img3:
-    type: image
-    label: above
-    settings:
-      image_link: ''
-      image_style: ''
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
-    weight: 3
-    region: content
-  field_img4:
-    type: image
-    label: above
-    settings:
-      image_link: ''
-      image_style: ''
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
-    weight: 4
-    region: content
-  field_phoneimg:
+  field_heroimg:
     type: image
     label: above
     settings:
@@ -79,5 +36,41 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 5
+    region: content
+  field_service_card:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_service_card3:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_service_card4:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_services_card:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
     region: content
 hidden: {  }

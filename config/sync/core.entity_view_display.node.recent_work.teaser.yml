@@ -1,0 +1,33 @@
+uuid: 3bbce9dd-848d-436f-8bc4-3e1c1fb1bdec
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.recent_work.body
+    - field.field.node.recent_work.field_task
+    - node.type.recent_work
+  module:
+    - text
+    - user
+id: node.recent_work.teaser
+targetEntityType: node
+bundle: recent_work
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_task: true

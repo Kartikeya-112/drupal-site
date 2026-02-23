@@ -1,0 +1,51 @@
+uuid: d58fae5a-67b6-4527-be18-bec9c9815967
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pricing_card.field_button
+    - field.field.paragraph.pricing_card.field_product_type
+    - field.field.paragraph.pricing_card.field_products
+    - field.field.paragraph.pricing_card.field_rate
+    - paragraphs.paragraphs_type.pricing_card
+  module:
+    - link
+    - text
+id: paragraph.pricing_card.default
+targetEntityType: paragraph
+bundle: pricing_card
+mode: default
+content:
+  field_button:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_product_type:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_products:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_rate:
+    type: text_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

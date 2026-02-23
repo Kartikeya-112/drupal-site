@@ -1,8 +1,8 @@
-uuid: 7bdc4b44-2942-41a4-994c-810a67e97ba4
+uuid: c67ee6fc-c710-4452-b0ef-c4ae7d80ad28
 langcode: en
 status: true
 dependencies: {  }
 id: our_services
 label: 'Our services'
 revision: 0
-description: ''
+description: 'our services block'

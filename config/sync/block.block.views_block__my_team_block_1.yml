@@ -1,0 +1,24 @@
+uuid: d554793f-0f4e-491e-aee5-108688e2482e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.my_team
+  module:
+    - views
+  theme:
+    - olivero
+id: views_block__my_team_block_1
+theme: olivero
+region: highlighted
+weight: -1
+provider: null
+plugin: 'views_block:my_team-block_1'
+settings:
+  id: 'views_block:my_team-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

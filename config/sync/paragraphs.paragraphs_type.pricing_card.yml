@@ -1,0 +1,10 @@
+uuid: f34c4557-3767-4f3d-b210-653f3200db72
+langcode: en
+status: true
+dependencies: {  }
+id: pricing_card
+label: 'Pricing card'
+icon_uuid: null
+icon_default: null
+description: 'This card contains information for products pricing '
+behavior_plugins: {  }

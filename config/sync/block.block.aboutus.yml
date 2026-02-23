@@ -11,7 +11,7 @@ dependencies:
 id: aboutus
 theme: olivero
 region: highlighted
-weight: -8
+weight: -10
 provider: null
 plugin: 'block_content:a77d6234-57c7-4685-acfa-df2cac927e2c'
 settings:
