@@ -1,0 +1,22 @@
+uuid: 691d856b-816e-4276-b63e-59d45e33f4cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: recent_works_url_pattern
+label: 'Recent Works URL pattern'
+type: 'canonical_entities:node'
+pattern: 'Recent Work/[node:title]'
+selection_criteria:
+  12d027a6-31a5-4da0-aeb5-1359aba1c609:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 12d027a6-31a5-4da0-aeb5-1359aba1c609
+    context_mapping:
+      node: node
+    bundles:
+      recent_work: recent_work
+selection_logic: and
+weight: -5
+relationships: {  }

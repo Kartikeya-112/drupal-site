@@ -1,0 +1,11 @@
+uuid: be350b5f-cc4a-4705-aaec-27afdd033358
+langcode: en
+status: true
+dependencies: {  }
+id: node__blog
+label: 'Content: Blog'
+tags:
+  abstract: 'Read insightful and well-researched blogs on technology, programming, web development, and trending topics. Stay updated with informative and engaging content.'
+  description: 'All the blogs of every user will be visible on this page.'
+  keywords: 'blog, technology blog, web development, programming, drupal, SEO, tutorials, tech articles'
+  title: 'Our Blogs'
