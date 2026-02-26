@@ -1,0 +1,22 @@
+uuid: 492d377f-811b-4660-a7e0-1ac7262eb027
+langcode: en
+status: true
+dependencies:
+  module:
+    - addtoany
+  theme:
+    - olivero
+id: addtoanyfollowbuttons_3
+theme: olivero
+region: highlighted
+weight: 0
+provider: null
+plugin: addtoany_follow_block
+settings:
+  id: addtoany_follow_block
+  label: 'AddToAny follow buttons'
+  label_display: visible
+  provider: addtoany
+  buttons_size: 8
+  addtoany_html: "<a class=\"a2a_button_facebook\" href=\"https://www.facebook.com/AddToAny\"></a>\r\n<a class=\"a2a_button_mastodon\" href=\"https://mastodon.social/@Gargron\"></a>\r\n<a class=\"a2a_button_youtube\" href=\"https://www.youtube.com/@YouTube\"></a>"
+visibility: {  }

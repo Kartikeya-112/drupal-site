@@ -5,13 +5,12 @@ dependencies:
   config:
     - block_content.type.hero_block
     - field.field.block_content.hero_block.body
-    - field.field.block_content.hero_block.field_heroimg
+    - field.field.block_content.hero_block.field_image
     - field.field.block_content.hero_block.field_link
     - field.field.block_content.hero_block.field_text
-    - image.style.thumbnail
   module:
-    - image
     - link
+    - media_library
     - text
 id: block_content.hero_block.default
 targetEntityType: block_content
@@ -28,13 +27,12 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-  field_heroimg:
-    type: image_image
-    weight: 27
+  field_image:
+    type: media_library_widget
+    weight: 30
     region: content
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      media_types: {  }
     third_party_settings: {  }
   field_link:
     type: link_default

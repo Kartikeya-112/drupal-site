@@ -5,11 +5,9 @@ dependencies:
   config:
     - field.field.paragraph.customer_card.field_customer_name
     - field.field.paragraph.customer_card.field_customer_type
-    - field.field.paragraph.customer_card.field_img1
+    - field.field.paragraph.customer_card.field_image
     - field.field.paragraph.customer_card.field_review
     - paragraphs.paragraphs_type.customer_card
-  module:
-    - image
 id: paragraph.customer_card.default
 targetEntityType: paragraph
 bundle: customer_card
@@ -31,16 +29,14 @@ content:
     third_party_settings: {  }
     weight: 2
     region: content
-  field_img1:
-    type: image
+  field_image:
+    type: entity_reference_entity_view
     label: above
     settings:
-      image_link: ''
-      image_style: ''
-      image_loading:
-        attribute: lazy
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    weight: 0
+    weight: 4
     region: content
   field_review:
     type: string

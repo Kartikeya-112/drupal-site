@@ -1,16 +1,16 @@
-uuid: 488be428-5f52-4aa1-be67-4b6fb78c8e09
+uuid: 0bf09230-f910-457d-a67a-ef1c07f90026
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_task
+    - field.storage.paragraph.field_image
     - media.type.image
-    - node.type.recent_work
-id: node.recent_work.field_task
-field_name: field_task
-entity_type: node
-bundle: recent_work
-label: task
+    - paragraphs.paragraphs_type.customer_card
+id: paragraph.customer_card.field_image
+field_name: field_image
+entity_type: paragraph
+bundle: customer_card
+label: image
 description: ''
 required: false
 translatable: false

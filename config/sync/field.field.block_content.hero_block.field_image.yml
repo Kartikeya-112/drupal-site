@@ -1,16 +1,16 @@
-uuid: 488be428-5f52-4aa1-be67-4b6fb78c8e09
+uuid: 60b41847-bd0c-41bb-841a-612c02e5b049
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_task
+    - block_content.type.hero_block
+    - field.storage.block_content.field_image
     - media.type.image
-    - node.type.recent_work
-id: node.recent_work.field_task
-field_name: field_task
-entity_type: node
-bundle: recent_work
-label: task
+id: block_content.hero_block.field_image
+field_name: field_image
+entity_type: block_content
+bundle: hero_block
+label: image
 description: ''
 required: false
 translatable: false

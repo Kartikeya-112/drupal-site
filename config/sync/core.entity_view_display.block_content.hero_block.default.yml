@@ -5,11 +5,10 @@ dependencies:
   config:
     - block_content.type.hero_block
     - field.field.block_content.hero_block.body
-    - field.field.block_content.hero_block.field_heroimg
+    - field.field.block_content.hero_block.field_image
     - field.field.block_content.hero_block.field_link
     - field.field.block_content.hero_block.field_text
   module:
-    - image
     - link
     - text
 id: block_content.hero_block.default
@@ -24,16 +23,14 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_heroimg:
-    type: image
+  field_image:
+    type: entity_reference_entity_view
     label: above
     settings:
-      image_link: ''
-      image_style: ''
-      image_loading:
-        attribute: lazy
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    weight: 1
+    weight: 4
     region: content
   field_link:
     type: link

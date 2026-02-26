@@ -5,12 +5,11 @@ dependencies:
   config:
     - field.field.paragraph.customer_card.field_customer_name
     - field.field.paragraph.customer_card.field_customer_type
-    - field.field.paragraph.customer_card.field_img1
+    - field.field.paragraph.customer_card.field_image
     - field.field.paragraph.customer_card.field_review
-    - image.style.thumbnail
     - paragraphs.paragraphs_type.customer_card
   module:
-    - image
+    - media_library
 id: paragraph.customer_card.default
 targetEntityType: paragraph
 bundle: customer_card
@@ -32,13 +31,12 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_img1:
-    type: image_image
-    weight: 0
+  field_image:
+    type: media_library_widget
+    weight: 4
     region: content
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      media_types: {  }
     third_party_settings: {  }
   field_review:
     type: string_textfield
