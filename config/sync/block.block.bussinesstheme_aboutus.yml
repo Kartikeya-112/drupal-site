@@ -1,0 +1,25 @@
+uuid: ad507d38-2277-400f-a3e5-006e4ec39337
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a77d6234-57c7-4685-acfa-df2cac927e2c'
+  module:
+    - block_content
+  theme:
+    - bussinesstheme
+id: bussinesstheme_aboutus
+theme: bussinesstheme
+region: about
+weight: -12
+provider: null
+plugin: 'block_content:a77d6234-57c7-4685-acfa-df2cac927e2c'
+settings:
+  id: 'block_content:a77d6234-57c7-4685-acfa-df2cac927e2c'
+  label: 'About us'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

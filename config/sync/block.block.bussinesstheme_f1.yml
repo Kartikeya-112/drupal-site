@@ -1,0 +1,25 @@
+uuid: c58c888e-01c6-4126-b3ee-68257619f87c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fa7b1c18-e756-4baf-8451-53464a503539'
+  module:
+    - block_content
+  theme:
+    - bussinesstheme
+id: bussinesstheme_f1
+theme: bussinesstheme
+region: footer_first
+weight: -11
+provider: null
+plugin: 'block_content:fa7b1c18-e756-4baf-8451-53464a503539'
+settings:
+  id: 'block_content:fa7b1c18-e756-4baf-8451-53464a503539'
+  label: '  F1'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

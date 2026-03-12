@@ -1,0 +1,25 @@
+uuid: 2785ec56-11e9-4e79-8f7b-6e3fe889b210
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:hero_block:3d23d253-c586-49b9-966b-7f4a05a237cd'
+  module:
+    - block_content
+  theme:
+    - bussinesstheme
+id: bussinesstheme_herosection
+theme: bussinesstheme
+region: hero
+weight: -12
+provider: null
+plugin: 'block_content:3d23d253-c586-49b9-966b-7f4a05a237cd'
+settings:
+  id: 'block_content:3d23d253-c586-49b9-966b-7f4a05a237cd'
+  label: 'Hero section'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

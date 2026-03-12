@@ -1,0 +1,25 @@
+uuid: d8a4a2b9-3781-4893-b132-6cafdc8f1142
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:why_choose_us:ef25beb4-65d1-4a46-9aa9-b08538bc7274'
+  module:
+    - block_content
+  theme:
+    - bussinesstheme
+id: bussinesstheme_whychooseus
+theme: bussinesstheme
+region: why
+weight: -12
+provider: null
+plugin: 'block_content:ef25beb4-65d1-4a46-9aa9-b08538bc7274'
+settings:
+  id: 'block_content:ef25beb4-65d1-4a46-9aa9-b08538bc7274'
+  label: 'why choose us'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

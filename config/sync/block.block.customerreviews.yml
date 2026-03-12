@@ -1,0 +1,25 @@
+uuid: d33ed727-2a71-4000-9ffd-d19adfc50bbd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:customer_references:51928130-a085-40a8-a4eb-1e5b2d0cadc0'
+  module:
+    - block_content
+  theme:
+    - bussinesstheme
+id: customerreviews
+theme: bussinesstheme
+region: review
+weight: 0
+provider: null
+plugin: 'block_content:51928130-a085-40a8-a4eb-1e5b2d0cadc0'
+settings:
+  id: 'block_content:51928130-a085-40a8-a4eb-1e5b2d0cadc0'
+  label: 'Customer Reviews'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

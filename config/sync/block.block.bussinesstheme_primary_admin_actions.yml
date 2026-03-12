@@ -1,0 +1,20 @@
+uuid: 623ecd74-5568-4ea9-9056-f50de29bc31b
+langcode: en
+status: false
+dependencies:
+  theme:
+    - bussinesstheme
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: bussinesstheme_primary_admin_actions
+theme: bussinesstheme
+region: header
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

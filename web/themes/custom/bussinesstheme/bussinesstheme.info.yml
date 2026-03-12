@@ -1,0 +1,41 @@
+name: Bussiness Theme
+type: theme
+description: "A basic Bussiness theme - morox by GEC designs."
+core_version_requirement: ^10
+base theme: false
+ 
+libraries:
+  - bussinesstheme/global
+  - bussinesstheme/google-font
+  - bussinesstheme/fontawesome
+ 
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+ 
+  hero: 'Hero Section'
+  content: 'content'
+  why: 'Why Choose Us'
+  about: 'About Section'
+  skills: 'Skills Section'
+  services: 'Services Section'
+  works: 'Works Section'
+  stats: 'Stats Section'
+ 
+  team: 'Team Section'
+  review: 'Review Section'
+  pricing: 'Pricing Section'
+ 
+  blog: 'Blog Section'
+  subscribe: 'Subscribe Section'
+ 
+  contact: 'Contact Section'
+  map: 'Map Section'
+ 
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer: 'Footer Bottom'
+components:
+  namespaces:
+    bussinesstheme: components
+ 
