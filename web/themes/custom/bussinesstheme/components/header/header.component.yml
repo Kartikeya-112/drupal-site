@@ -1,0 +1,25 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/10.3.x/core/modules/sdc/src/metadata.schema.json
+
+name: Header
+description: Website main navigation header
+
+props:
+  type: object
+  properties:
+
+    logo:
+      type: string
+      title: Logo URL
+
+    menu:
+      type: array
+      title: Navigation Menu
+      items:
+        type: object
+        properties:
+          title:
+            type: string
+          url:
+            type: string
+          active:
+            type: boolean

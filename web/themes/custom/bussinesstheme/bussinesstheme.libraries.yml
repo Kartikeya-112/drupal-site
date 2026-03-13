@@ -4,3 +4,19 @@ global:
     theme:
       css/style.css: {}
       css/responsive.css: {}
+      css/header.css: {} 
+      css/hero.css: {} 
+      css/about.css: {} 
+      css/services.css: {} 
+      css/skills.css: {} 
+      css/works.css: {} 
+      css/pricing.css: {} 
+      css/team.css: {} 
+      css/review.css: {} 
+      css/blog.css: {}
+      css/contact.css: {} 
+      css/map.css: {} 
+      css/subscribe.css: {} 
+      css/footer.css: {}
+      css/content.css: {} 
+      css/why.css: {}

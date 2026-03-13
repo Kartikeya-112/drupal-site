@@ -1,0 +1,136 @@
+{# page.html.twig - Basic Drupal Page Template #}
+
+<div class="page-wrapper">
+
+  {% if page.header_top %}
+    <div class="header-top">
+      {{ page.header_top }}
+    </div>
+  {% endif %}
+
+  {% if page.header %}
+    <header class="header">
+      {{ page.header }}
+    </header>
+  {% endif %}
+
+  {% if page.primary_menu %}
+    <nav class="primary-menu">
+      {{ page.primary_menu }}
+    </nav>
+  {% endif %}
+
+
+ {# HERO SECTION #} {% include directory ~ '/components/hero/hero.twig' with { image: directory ~ '/images/hero.jpg' } %}
+
+
+  {# Main Content #}
+  <div class="layout-container">
+    {{ page.content }}
+  </div>
+
+
+  {% if page.why %}
+    <section class="why">
+      {{ page.why }}
+    </section>
+  {% endif %}
+
+  {% if page.about %}
+    <section class="about">
+      {{ page.about }}
+    </section>
+  {% endif %}
+
+  {% if page.services %}
+    <section class="services">
+      {{ page.services }}
+    </section>
+  {% endif %}
+
+  {% if page.skills %}
+    <section class="skills">
+      {{ page.skills }}
+    </section>
+  {% endif %}
+
+  {% if page.works %}
+    <section class="works">
+      {{ page.works }}
+    </section>
+  {% endif %}
+
+  {% if page.stats %}
+    <section class="stats">
+      {{ page.stats }}
+    </section>
+  {% endif %}
+
+  {% if page.team %}
+    <section class="team">
+      {{ page.team }}
+    </section>
+  {% endif %}
+
+  {% if page.review %}
+    <section class="review">
+      {{ page.review }}
+    </section>
+  {% endif %}
+
+  {% if page.pricing %}
+    <section class="pricing">
+      {{ page.pricing }}
+    </section>
+  {% endif %}
+
+  {% if page.offer %}
+    <section class="offer">
+      {{ page.offer }}
+    </section>
+  {% endif %}
+
+  {% if page.blog %}
+    <section class="blog">
+      {{ page.blog }}
+    </section>
+  {% endif %}
+
+  {% if page.subscribe %}
+    <section class="subscribe">
+      {{ page.subscribe }}
+    </section>
+  {% endif %}
+
+  {% if page.contact %}
+    <section class="contact">
+      {{ page.contact }}
+    </section>
+  {% endif %}
+
+  {% if page.map %}
+    <section class="map">
+      {{ page.map }}
+    </section>
+  {% endif %}
+
+  {% if page.footer_first %}
+    <footer class="footer-first">
+      {{ page.footer_first }}
+    </footer>
+  {% endif %}
+
+  {% if page.footer_second %}
+    <footer class="footer-second">
+      {{ page.footer_second }}
+    </footer>
+  {% endif %}
+
+  {% if page.footer %}
+    <footer class="footer-bottom">
+      {{ page.footer }}
+    </footer>
+  {% endif %}
+
+</div>
+```

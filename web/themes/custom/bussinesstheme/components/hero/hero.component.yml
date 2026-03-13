@@ -1,0 +1,19 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/10.0.x/core/modules/sdc/src/metadata.schema.json
+
+name: Hero Section
+description: Business theme hero section
+props:
+  type: object
+  properties:
+    title:
+      type: string
+      title: Hero Title
+    subtitle:
+      type: string
+      title: Subtitle
+    description:
+      type: string
+      title: Description
+    image:
+      type: string
+      title: Hero Image

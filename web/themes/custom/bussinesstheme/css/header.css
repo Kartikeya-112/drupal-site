@@ -1,0 +1,42 @@
+/* HEADER/NAV */
+.header {
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+  padding: 15px 10%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.header .nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.header .logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #ff6a00;
+  letter-spacing: 2px;
+}
+.header .logo img {
+  height: 45px;
+  width: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.header .nav {
+  display: flex;
+  gap: 35px;
+}
+.header .nav .nav-link {
+  color: white;
+  font-size: 1em;
+  transition: 0.3s;
+  font-weight: 500;
+}
+.header .nav .nav-link:hover, .header .nav .nav-link.active {
+  color: #ff6a00;
+}/*# sourceMappingURL=header.css.map */
