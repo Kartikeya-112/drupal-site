@@ -60,4 +60,136 @@
   width: 520px;
   border-radius: 50%;
   border: 12px solid #ff6a2f;
+}
+
+.pricing {
+  background: #f6f6f6;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.pricing-title {
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+
+.pricing-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pricing-cards > div {
+  flex: 0 0 auto;
+}
+
+.pricing-card {
+  width: 260px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.pricing-card-header {
+  background: #33424f;
+  color: #fff;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.pricing-price {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0 30px;
+  margin: 0;
+}
+
+.pricing-features li {
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+.pricing-btn {
+  text-align: center;
+  padding: 25px;
+}
+
+.pricing-btn a {
+  display: inline-block;
+  border: 2px solid #ff6a00;
+  padding: 10px 30px;
+  color: #555;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0 40px;
+  margin: 20px 0;
+}
+
+.pricing-features li {
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e5e5;
+  color: #555;
+}
+
+.pricing-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#block-bussinesstheme-pricingtable > div {
+  display: grid;
+  grid-template-columns: repeat(4, 260px);
+  justify-content: center;
+  gap: 30px;
+}
+
+#block-bussinesstheme-pricingtable > div > div:first-child {
+  grid-column: 1/-1;
+}
+
+/* Force pricing cards into a horizontal layout */
+.pricing #block-bussinesstheme-pricingtable > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Each paragraph wrapper becomes a flex item */
+.pricing #block-bussinesstheme-pricingtable > div > div {
+  display: flex;
+}
+
+/* Ensure the actual card keeps fixed width */
+.pricing-card {
+  width: 260px;
+}
+
+.pricing #block-bussinesstheme-pricingtable > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
 }/*# sourceMappingURL=style.css.map */

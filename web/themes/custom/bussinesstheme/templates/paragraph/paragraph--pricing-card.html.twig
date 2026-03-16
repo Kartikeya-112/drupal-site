@@ -1,0 +1,22 @@
+
+<div class="pricing-card">
+
+  <div class="pricing-card-header">
+    {{ content.field_product_type }}
+  </div>
+
+  <div class="pricing-price">
+    {{ content.field_rate }}
+  </div>
+
+  <ul class="pricing-features">
+    {% for item in paragraph.field_products %}
+      <li>{{ item.value }}</li>
+    {% endfor %}
+  </ul>
+
+  <div class="pricing-btn">
+    {{ content.field_button }}
+  </div>
+
+</div>

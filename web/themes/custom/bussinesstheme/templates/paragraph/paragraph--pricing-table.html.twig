@@ -1,0 +1,19 @@
+<section class="pricing">
+
+  <div class="pricing-container">
+
+    <h2 class="pricing-title">
+      {{ content.field_title }}
+    </h2>
+
+    <div class="pricing-cards">
+
+      {% for item in paragraph.field_pricing_card %}
+        {{ paragraph.entity.field_pricing_card[loop.index0].entity }}
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+</section>

@@ -1,0 +1,11 @@
+name: Pricing Table
+description: Pricing section with multiple cards
+props:
+  type: object
+  properties:
+    title:
+      type: string
+      title: Section Title
+    cards:
+      type: array
+      title: Pricing Cards

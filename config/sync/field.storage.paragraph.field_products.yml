@@ -10,11 +10,35 @@ field_name: field_products
 entity_type: paragraph
 type: list_string
 settings:
-  allowed_values: {  }
+  allowed_values:
+    -
+      value: '1GB Disk'
+      label: '1GB Disk'
+    -
+      value: '1 domain name'
+      label: '1 domain name'
+    -
+      value: '2 email address'
+      label: '2 email address'
+    -
+      value: 'enhanced security'
+      label: 'enhanced security'
+    -
+      value: '10GB Disk'
+      label: '10GB Disk'
+    -
+      value: '20 email address'
+      label: '20 email address'
+    -
+      value: '50 email address'
+      label: '50 email address'
+    -
+      value: 'high security'
+      label: 'high security'
   allowed_values_function: ''
 module: options
 locked: false
-cardinality: 4
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

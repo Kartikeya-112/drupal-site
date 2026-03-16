@@ -19,7 +19,7 @@ mode: default
 content:
   field_button:
     type: link
-    label: above
+    label: hidden
     settings:
       trim_length: 80
       url_only: false
@@ -31,7 +31,7 @@ content:
     region: content
   field_product_type:
     type: text_default
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 0
@@ -45,7 +45,7 @@ content:
     region: content
   field_rate:
     type: text_default
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 1
