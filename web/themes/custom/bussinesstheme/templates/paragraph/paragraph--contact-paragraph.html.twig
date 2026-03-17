@@ -1,0 +1,25 @@
+{# 🔥 REMOVE DRUPAL DEFAULT WRAPPER LABEL #}
+{% set classes = [
+  'contact-card'
+] %}
+
+<div{{ attributes.addClass(classes) }}>
+
+  <div class="icon">
+    {% set title = content.field_title['#items'].value|lower %}
+
+    {% if 'address' in title %}
+      <i class="fas fa-map-marker-alt"></i>
+    {% elseif 'mobile' in title or 'phone' in title %}
+      <i class="fas fa-phone"></i>
+    {% elseif 'email' in title %}
+      <i class="fas fa-envelope"></i>
+    {% elseif 'time' in title or 'timing' in title %}
+      <i class="fas fa-clock"></i>
+    {% endif %}
+  </div>
+
+  <h4>{{ content.field_title }}</h4>
+  <p>{{ content.field_text }}</p>
+
+</div>

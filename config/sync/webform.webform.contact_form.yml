@@ -16,18 +16,22 @@ elements: |-
   name:
     '#type': textfield
     '#title': Name
+    '#placeholder': 'Name *'
     '#required': true
   email:
     '#type': email
     '#title': Email
+    '#placeholder': 'Email *'
     '#required': true
   subject:
     '#type': textfield
     '#title': Subject
+    '#placeholder': Subject
     '#required': true
   message:
     '#type': textfield
     '#title': Message
+    '#placeholder': Message
 css: ''
 javascript: ''
 settings:

@@ -1,0 +1,16 @@
+contact:
+  label: "Contact Section"
+  description: "Get in touch section with contact info and form"
+  fields:
+    title:
+      type: text
+      label: "Section Title"
+    description:
+      type: text
+      label: "Section Description"
+    items:
+      type: list
+      label: "Contact Items"
+    form:
+      type: render
+      label: "Webform"

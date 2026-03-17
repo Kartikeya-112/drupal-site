@@ -38,7 +38,7 @@ content:
     region: content
   field_products:
     type: list_default
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 2

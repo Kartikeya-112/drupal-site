@@ -1,0 +1,10 @@
+uuid: c3dcba08-d062-43fd-92fc-9fb11fd58a3b
+langcode: en
+status: true
+dependencies: {  }
+id: contact_paragraph
+label: 'contact paragraph'
+icon_uuid: null
+icon_default: null
+description: 'this paragraph contains get in touch section details'
+behavior_plugins: {  }

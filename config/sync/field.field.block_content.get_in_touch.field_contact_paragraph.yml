@@ -1,0 +1,46 @@
+uuid: f6b71d72-b64a-46dd-82cb-f92db9574fdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.get_in_touch
+    - field.storage.block_content.field_contact_paragraph
+    - paragraphs.paragraphs_type.contact_paragraph
+  module:
+    - entity_reference_revisions
+id: block_content.get_in_touch.field_contact_paragraph
+field_name: field_contact_paragraph
+entity_type: block_content
+bundle: get_in_touch
+label: 'contact paragraph'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      contact_paragraph: contact_paragraph
+    negate: 0
+    target_bundles_drag_drop:
+      bar_paragraph:
+        weight: 7
+        enabled: false
+      contact_paragraph:
+        weight: 8
+        enabled: true
+      customer_card:
+        weight: 9
+        enabled: false
+      pricing_card:
+        weight: 10
+        enabled: false
+      service_card:
+        weight: 11
+        enabled: false
+      service_cards:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

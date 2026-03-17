@@ -1,0 +1,25 @@
+uuid: b41baeee-27cc-466b-8d5f-ebb936db64e8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:get_in_touch:55f1b8a4-2a56-465f-8451-9f80138c6fea'
+  module:
+    - block_content
+  theme:
+    - bussinesstheme
+id: getinblock
+theme: bussinesstheme
+region: contact
+weight: -13
+provider: null
+plugin: 'block_content:55f1b8a4-2a56-465f-8451-9f80138c6fea'
+settings:
+  id: 'block_content:55f1b8a4-2a56-465f-8451-9f80138c6fea'
+  label: 'getin block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

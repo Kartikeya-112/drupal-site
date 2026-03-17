@@ -1,0 +1,24 @@
+uuid: 96fa7f0d-e26b-4810-86db-bfd6d76d393d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.get_in_touch
+    - field.field.block_content.get_in_touch.field_contact_paragraph
+  module:
+    - entity_reference_revisions
+id: block_content.get_in_touch.default
+targetEntityType: block_content
+bundle: get_in_touch
+mode: default
+content:
+  field_contact_paragraph:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
