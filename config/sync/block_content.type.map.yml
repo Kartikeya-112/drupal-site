@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 id: map
 label: map
-revision: 0
+revision: false
 description: 'this block defines the map section.'

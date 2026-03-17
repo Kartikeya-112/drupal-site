@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 id: our_skills
 label: 'Our Skills'
-revision: 0
+revision: false
 description: 'The percentage of efficiency of our company in different products '

@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 id: customer_references
 label: 'customer references'
-revision: 0
+revision: false
 description: 'This block contains cusomer details and their reviews.'

@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 id: pricing_table
 label: 'Pricing Table'
-revision: 0
+revision: false
 description: 'This table contains description about the companies products.'
