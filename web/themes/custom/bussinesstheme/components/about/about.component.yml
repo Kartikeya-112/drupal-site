@@ -1,34 +1,17 @@
 name: About Section
-description: About us section
-
+description: About us section with image and content
 props:
   type: object
   properties:
-
-    title:
-      type: string
-      default: "About Us"
-
-    subtitle:
-      type: string
-      default: "Who We Are"
-
-    description_one:
-      type: string
-      default: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vel aut animi quam ducimus consequatur voluptas delectus."
-
-    description_two:
-      type: string
-      default: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius exercitationem suscipit ex quasi in iure dolorem cupiditate corrupts ducimus ipsa."
-
     image:
       type: string
-      default: "/themes/custom/bussinesstheme/images/about.jpg"
-
+    title:
+      type: string
+    subtitle:
+      type: string
+    body:
+      type: string
+    button_url:
+      type: string
     button_text:
       type: string
-      default: "Read More"
-
-    button_link:
-      type: string
-      default: "#"

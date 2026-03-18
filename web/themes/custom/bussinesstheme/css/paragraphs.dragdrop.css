@@ -40,7 +40,7 @@
 .paragraphs-dragdrop__list:empty {
   min-height: var(--dnd-item-min-height);
   margin: 5px 5px 10px 0;
-  border: 1px dashed #999999;
+  border: 1px dashed #999;
   border-radius: 3px;
 }
 [dir=rtl] .paragraphs-dragdrop__list:empty {
@@ -56,8 +56,9 @@
 }
 
 .paragraphs-dragdrop__item {
-  display: flex;
   position: relative;
+  display: flex;
+  overflow: hidden;
   flex: 0 0 100%;
   flex-flow: row wrap;
   align-items: center;
@@ -65,11 +66,10 @@
   margin: 5px 5px 10px 0;
   padding: 0 0 0 var(--dnd-icon-size);
   transition: max-height 0.8s ease;
-  border: 1px solid #999999;
+  border: 1px solid #999;
   border-left-width: 10px;
   border-radius: 3px;
   background: #fff;
-  overflow: hidden;
 }
 [dir=rtl] .paragraphs-dragdrop__item {
   margin-right: 0;
@@ -91,17 +91,17 @@
 }
 .paragraphs-dragdrop__item.sortable-drag {
   height: var(--dnd-item-min-height);
-  background: #fff;
   opacity: 1;
+  background: #fff;
 }
 .paragraphs-dragdrop__item.sortable-ghost {
   min-height: 0;
   max-height: var(--dnd-item-min-height);
-  border-style: dashed;
-  border-left-style: solid;
-  border-color: var(--dnd-item-ghost-border);
-  background-color: var(--dnd-item-ghost-bg);
   opacity: 1;
+  border-style: dashed;
+  border-color: var(--dnd-item-ghost-border);
+  border-left-style: solid;
+  background-color: var(--dnd-item-ghost-bg);
 }
 [dir=rtl] .paragraphs-dragdrop__item.sortable-ghost {
   border-right-style: solid;
@@ -133,19 +133,19 @@
 }
 
 .paragraphs-dragdrop__handle {
-  display: flex;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
+  display: flex;
   flex: 0 0 var(--dnd-icon-size);
   align-self: stretch;
   justify-content: center;
   width: var(--dnd-icon-size);
   height: 100%;
-  background: transparent;
-  text-decoration: none;
   cursor: move;
+  text-decoration: none;
+  background: transparent;
 }
 [dir=rtl] .paragraphs-dragdrop__handle {
   right: 0;
@@ -153,16 +153,16 @@
   align-self: flex-end;
 }
 .sortable-chosen > .paragraphs-dragdrop__handle {
-  background-color: #f8f8f8;
   cursor: grab;
+  background-color: #f8f8f8;
 }
 .sortable-chosen .paragraphs-dragdrop__item .paragraphs-dragdrop__handle {
   background-color: transparent;
 }
 
 .paragraphs-dragdrop__icon {
-  display: block;
   position: relative;
+  display: block;
   width: 100%;
   height: calc(var(--dnd-icon-size) + 2px);
   background: transparent url(../icons/icon-drag-move.svg) no-repeat 50% 50%;
@@ -174,8 +174,8 @@
 
 .paragraphs-dragdrop__label {
   display: block;
-  line-height: inherit;
   white-space: nowrap;
+  line-height: inherit;
 }
 .paragraphs-dragdrop__label--field {
   margin: 10px 0;

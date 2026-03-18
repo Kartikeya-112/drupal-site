@@ -1,39 +1,21 @@
 <section class="about">
-  <div class="about__container">
+  <div class="about-image">
+    {% if image %}
+      <img src="{{ image }}" alt="About Image">
+    {% endif %}
+  </div>
 
-    <!-- Left Image -->
-    <div class="about__image-wrapper">
-      <div class="about__shape"></div>
-      <div class="about__circle circle-one"></div>
-      <div class="about__circle circle-two"></div>
+  <div class="about-text">
+    <h2>About Us</h2>
 
-      <img src="{{ image }}" alt="About image" class="about__image">
-    </div>
+    <h3>{{ subtitle }}</h3>
 
-    <!-- Right Content -->
-    <div class="about__content">
+    <p>{{ body }}</p>
 
-      <h2 class="about__title">
-        {{ title }}
-      </h2>
-
-      <h3 class="about__subtitle">
-        {{ subtitle }}
-      </h3>
-
-      <p class="about__text">
-        {{ description_one }}
-      </p>
-
-      <p class="about__text">
-        {{ description_two }}
-      </p>
-
-      <a href="{{ button_link }}" class="about__btn">
-        {{ button_text }} →
+    {% if button_url %}
+      <a href="{{ button_url }}" class="about-btn">
+        {{ button_text }}
       </a>
-
-    </div>
-
+    {% endif %}
   </div>
 </section>

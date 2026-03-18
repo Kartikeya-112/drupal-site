@@ -1,0 +1,8 @@
+uuid: d387e23e-ca4d-43c5-b80b-c2e5fd4d29fb
+langcode: en
+status: true
+dependencies: {  }
+id: about2
+label: about2
+revision: false
+description: 'correct about section block'

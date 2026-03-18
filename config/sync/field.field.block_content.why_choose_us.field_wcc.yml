@@ -1,21 +1,21 @@
-uuid: 898ae21c-90ea-4c42-958b-c9dd79db3db8
+uuid: c2fb114d-a6b5-4f8d-bd9b-320ce8e16b66
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.why_choose_us
-    - field.storage.block_content.field_service_card4
+    - field.storage.block_content.field_wcc
     - paragraphs.paragraphs_type.service_cards
   module:
     - entity_reference_revisions
-id: block_content.why_choose_us.field_service_card4
-field_name: field_service_card4
+id: block_content.why_choose_us.field_wcc
+field_name: field_wcc
 entity_type: block_content
 bundle: why_choose_us
-label: 'service card'
+label: 'why choose card'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -25,10 +25,19 @@ settings:
       service_cards: service_cards
     negate: 0
     target_bundles_drag_drop:
-      service_card:
-        weight: 3
+      bar_paragraph:
+        weight: 6
+        enabled: false
+      contact_paragraph:
+        weight: 7
+        enabled: false
+      customer_card:
+        weight: 8
+        enabled: false
+      pricing_card:
+        weight: 9
         enabled: false
       service_cards:
-        weight: 4
+        weight: 10
         enabled: true
 field_type: entity_reference_revisions

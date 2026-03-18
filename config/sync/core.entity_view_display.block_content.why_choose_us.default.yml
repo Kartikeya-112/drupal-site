@@ -5,11 +5,8 @@ dependencies:
   config:
     - block_content.type.why_choose_us
     - field.field.block_content.why_choose_us.body
-    - field.field.block_content.why_choose_us.field_service_card
-    - field.field.block_content.why_choose_us.field_service_card3
-    - field.field.block_content.why_choose_us.field_service_card4
-    - field.field.block_content.why_choose_us.field_services_card
     - field.field.block_content.why_choose_us.field_text
+    - field.field.block_content.why_choose_us.field_wcc
   module:
     - entity_reference_revisions
     - text
@@ -25,42 +22,6 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_service_card:
-    type: entity_reference_revisions_entity_view
-    label: above
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  field_service_card3:
-    type: entity_reference_revisions_entity_view
-    label: above
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    weight: 3
-    region: content
-  field_service_card4:
-    type: entity_reference_revisions_entity_view
-    label: above
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    weight: 4
-    region: content
-  field_services_card:
-    type: entity_reference_revisions_entity_view
-    label: above
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    weight: 1
-    region: content
   field_text:
     type: string
     label: above
@@ -68,5 +29,14 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 5
+    region: content
+  field_wcc:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 6
     region: content
 hidden: {  }

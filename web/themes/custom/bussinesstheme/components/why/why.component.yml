@@ -1,0 +1,11 @@
+name: Why Choose Us
+description: Why choose us section with cards
+props:
+  type: object
+  properties:
+    title:
+      type: string
+    body:
+      type: string
+    cards:
+      type: array

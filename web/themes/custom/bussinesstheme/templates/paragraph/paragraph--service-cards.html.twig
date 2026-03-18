@@ -1,0 +1,25 @@
+{% set id = paragraph.id() %}
+
+<div class="why-card">
+
+  <div class="why-icon">
+    {% if id % 4 == 0 %}
+      <i class="fa-solid fa-bullseye"></i>
+    {% elseif id % 4 == 1 %}
+      <i class="fa-solid fa-palette"></i>
+    {% elseif id % 4 == 2 %}
+      <i class="fa-solid fa-gears"></i>
+    {% else %}
+      <i class="fa-solid fa-shield-halved"></i>
+    {% endif %}
+  </div>
+
+  <h3 class="why-title">
+    {{ content.field_title }}
+  </h3>
+
+  <p class="why-desc">
+    {{ content.field_description }}
+  </p>
+
+</div>

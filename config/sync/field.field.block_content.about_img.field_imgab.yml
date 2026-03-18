@@ -1,0 +1,29 @@
+uuid: fbde2d28-949e-4474-b115-956cad7610b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_img
+    - field.storage.block_content.field_imgab
+    - media.type.image
+id: block_content.about_img.field_imgab
+field_name: field_imgab
+entity_type: block_content
+bundle: about_img
+label: imgab
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,8 @@
+uuid: f53e5609-e722-4f0b-9f7a-6d9a2a9f1e12
+langcode: en
+status: true
+dependencies: {  }
+id: about_img
+label: about_img
+revision: false
+description: 'block for image at about section '

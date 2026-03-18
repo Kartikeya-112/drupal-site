@@ -1,112 +1,139 @@
 .about {
+  padding: 80px 10%;
   background: #f5f5f5;
-  padding: 100px 10%;
-
-  &__container {
-    display: flex;
-    align-items: center;
-    gap: 80px;
-  }
-
-  /* LEFT IMAGE AREA */
-
-  &__image-wrapper {
-    position: relative;
-    width: 200px;
-    flex-shrink: 0;
-  }
-
-  &__image {
-    width: 100%;
-    border-radius: 60% 40% 50% 50%;
-    border: 12px solid #ff6a2f;
-    position: relative;
-    z-index: 2;
-  }
-
-  /* Abstract shape */
-
-  &__shape {
-    position: absolute;
-    width: 420px;
-    height: 420px;
-    background: #ff7a3c;
-    border-radius: 60% 40% 50% 50%;
-    top: 10px;
-    left: 10px;
-    z-index: 1;
-  }
-
-  /* circles */
-
-  .circle-one {
-    position: absolute;
-    width: 140px;
-    height: 140px;
-    background: rgba(255, 106, 47, 0.35);
-    border-radius: 50%;
-    top: -20px;
-    left: -30px;
-    z-index: 3;
-  }
-
-  .circle-two {
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    background: rgba(255, 106, 47, 0.35);
-    border-radius: 50%;
-    bottom: -40px;
-    right: -40px;
-    z-index: 1;
-  }
-
-  /* RIGHT CONTENT */
-
-  &__content {
-    max-width: 550px;
-  }
-
-  &__title {
-    font-size: 42px;
-    margin-bottom: 20px;
-  }
-
-  &__subtitle {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 20px;
-  }
-
-  &__text {
-    color: #666;
-    line-height: 1.7;
-    margin-bottom: 18px;
-  }
-
-  &__btn {
-    display: inline-block;
-    border: 2px solid #ff6a2f;
-    padding: 12px 30px;
-    border-radius: 6px;
-    text-decoration: none;
-    color: #333;
-    font-weight: 600;
-    transition: 0.3s;
-
-    &:hover {
-      background: #ff6a2f;
-      color: #fff;
-    }
-  }
+  overflow: hidden;
 }
 
-/* RESPONSIVE */
-@media (max-width: 900px) {
+/* FIX DRUPAL WRAPPER */
+.about > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  width: 100%;
+}
 
-  .about__container {
+/* IMAGE BLOCK */
+#block-bussinesstheme-about-img {
+  flex: 1;
+  order: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#block-bussinesstheme-about-img img {
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+
+/* ORANGE CIRCLE */
+#block-bussinesstheme-about-img::before {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: #c55c11;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* TEXT BLOCK */
+#block-bussinesstheme-about2 {
+  flex: 1;
+  order: 2;
+  max-width: 520px;
+}
+
+/* WHO WE ARE (FIRST DIV) */
+#block-bussinesstheme-about2 > div:first-child {
+  font-size: 26px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+/* PARAGRAPHS */
+#block-bussinesstheme-about2 > div:nth-child(2),
+#block-bussinesstheme-about2 > div:nth-child(3) {
+  font-size: 16px;
+  color: #6c757d;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+/* BUTTON */
+#block-bussinesstheme-about2 a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 32px;
+  border: 2px solid #ff6a00;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+/* BUTTON HOVER */
+#block-bussinesstheme-about2 a:hover {
+  background: grey;
+  color: #fff;
+}
+/* TARGET YOUR TEXT WRAPPER */
+.about-text {
+  max-width: 520px;
+}
+
+/* WHO WE ARE */
+.about-text > div:first-child {
+  font-size: 26px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+/* PARAGRAPH */
+.about-text p {
+  font-size: 16px;
+  color: #6c757d;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* BUTTON WRAPPER */
+.about-text > div:last-child {
+  margin-top: 10px;
+}
+
+/* BUTTON */
+.about-text a {
+  display: inline-block;
+  padding: 14px 32px;
+  border: 2px solid #ff6a00;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+/* HOVER */
+.about-text a:hover {
+  background: #6c757d;
+  color: #fff;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .about > div {
     flex-direction: column;
     text-align: center;
   }
-
 }
