@@ -1,6 +1,6 @@
 uuid: d33ed727-2a71-4000-9ffd-d19adfc50bbd
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:customer_references:51928130-a085-40a8-a4eb-1e5b2d0cadc0'

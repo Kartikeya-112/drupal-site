@@ -1,6 +1,6 @@
 uuid: bbbaac8c-79cb-4534-8982-0287d765d1a5
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.my_team

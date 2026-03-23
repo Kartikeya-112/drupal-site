@@ -1,6 +1,6 @@
 .header {
-  position: absolute;
-  top: 90px;
+  position: fixed;
+  top: 80px;
   left: 0;
   width: 100%;
   z-index: 1000;
@@ -33,9 +33,17 @@
 
 
 .nav a {
-  white-space: nowrap;
-// 👈 prevents shrinking
+  color: #fff;              // 👈 force white
+  text-decoration: none;   // 👈 remove underline
+  font-weight: 500;
+
 }
+
+.nav a:hover {
+  color: #ff6a2f; // optional hover effect 🔥
+}
+
+
 .hero {
   background: #2f3f4c;
 padding: 160px 0 120px; // increased top padding  color: #fff;

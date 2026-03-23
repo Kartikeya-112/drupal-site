@@ -10,8 +10,8 @@ dependencies:
     - bussinesstheme
 id: map
 theme: bussinesstheme
-region: map
-weight: 0
+region: contact
+weight: -11
 provider: null
 plugin: 'block_content:a2113a56-a7c1-4221-9ce9-001b7b1fa1f6'
 settings:

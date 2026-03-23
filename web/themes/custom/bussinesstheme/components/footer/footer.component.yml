@@ -1,0 +1,20 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/10.0.x/core/modules/sdc/src/metadata.schema.json
+
+name: Footer
+description: Business theme footer section
+
+props:
+  type: object
+  properties:
+    logo:
+      type: string
+      title: Logo Text
+    title:
+      type: string
+      title: Footer Title
+    text:
+      type: string
+      title: Footer Text
+    author:
+      type: string
+      title: Author Name

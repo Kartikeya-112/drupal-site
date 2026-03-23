@@ -73,4 +73,13 @@
 <div class="layout-container">
   {{ page.content }}
 </div>
-```
+
+
+
+{# ✅ FOOTER COMPONENT #}
+{% include directory ~ '/components/footer/footer.twig' with {
+  logo: 'SQE',
+  title: 'Creative Template',
+  text: 'sqe Business theme, All Rights Reserved',
+  author: 'GEC Designs'
+} %}
