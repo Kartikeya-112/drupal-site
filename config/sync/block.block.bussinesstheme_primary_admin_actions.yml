@@ -9,7 +9,7 @@ _core:
 id: bussinesstheme_primary_admin_actions
 theme: bussinesstheme
 region: header
-weight: -6
+weight: -11
 provider: null
 plugin: local_actions_block
 settings:

@@ -1,7 +1,43 @@
+.header {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* CONTAINER FIX */
+.navbar {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.logo {
+  color: #ff6a2f;
+  font-size: 32px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+/* NAV FIX (MAIN) */
+.nav {
+  display: flex;
+  gap: 25px;
+  margin-left: auto;
+  margin-right: 170px;
+}
+
+.nav a {
+  white-space: nowrap;
+}
+
 .hero {
   background: #2f3f4c;
-  padding: 120px 0;
-  color: #fff;
+  padding: 160px 0 120px;
 }
 
 .hero__container {
@@ -25,6 +61,7 @@
 
 .hero__title {
   font-size: 64px;
+  color: #fff;
   line-height: 1.1;
   font-weight: 700;
   margin-bottom: 20px;

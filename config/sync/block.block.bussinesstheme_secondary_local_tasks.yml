@@ -9,7 +9,7 @@ _core:
 id: bussinesstheme_secondary_local_tasks
 theme: bussinesstheme
 region: header
-weight: -2
+weight: -7
 provider: null
 plugin: local_tasks_block
 settings:

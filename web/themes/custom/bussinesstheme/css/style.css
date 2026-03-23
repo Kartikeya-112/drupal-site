@@ -1,8 +1,41 @@
 @charset "UTF-8";
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar {
+  width: 1200px;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #ff6a2f;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
 .hero {
   background: #2f3f4c;
-  padding: 120px 0;
-  color: #fff;
+  padding: 160px 0 120px;
 }
 
 .hero__container {
@@ -531,27 +564,25 @@
 .why-container {
   display: flex;
   gap: 60px;
-  align-items: flex-start;
 }
 
-/* LEFT SIDE */
+/* LEFT */
 .why-left {
   flex: 1;
 }
+
 .why-left h2 {
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #2c3e50;
-}
-.why-left p {
-  color: #6c757d;
-  line-height: 1.8;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 
-/* RIGHT SIDE */
-.why-right {
+.why-left p {
+  color: #666;
+  line-height: 1.8;
+}
+
+/* RIGHT GRID */
+.field--name-field-why-choose-card {
   flex: 1;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -561,7 +592,7 @@
 /* CARD */
 .why-card {
   background: #fff;
-  padding: 30px 20px;
+  padding: 30px;
   text-align: center;
   border-radius: 12px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
@@ -573,29 +604,42 @@
 }
 
 /* ICON */
-.why-card img {
-  width: 50px;
+.why-icon {
+  display: flex;
+  justify-content: center;
   margin-bottom: 15px;
 }
 
+.why-icon i {
+  font-size: 40px;
+  color: #ff6a00;
+}
+
 /* TITLE */
-.why-card h3 {
+.why-title {
   font-size: 20px;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
-/* TEXT */
-.why-card p {
+/* DESC */
+.why-desc {
   font-size: 14px;
   color: #666;
 }
 
-/* MOBILE */
-@media (max-width: 768px) {
-  .why-container {
-    flex-direction: column;
-  }
-  .why-right {
-    grid-template-columns: 1fr;
-  }
+.why-icon {
+  width: 60px;
+  height: 60px;
+  background: #ff6a00;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+.why-icon i {
+  color: #fff;
+  font-size: 22px;
 }/*# sourceMappingURL=style.css.map */

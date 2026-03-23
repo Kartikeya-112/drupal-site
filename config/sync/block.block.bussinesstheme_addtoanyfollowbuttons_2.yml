@@ -9,7 +9,7 @@ dependencies:
 id: bussinesstheme_addtoanyfollowbuttons_2
 theme: bussinesstheme
 region: header
-weight: 0
+weight: -5
 provider: null
 plugin: addtoany_follow_block
 settings:
