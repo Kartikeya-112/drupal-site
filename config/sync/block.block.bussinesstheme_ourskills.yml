@@ -1,6 +1,6 @@
 uuid: 6a3a8169-7cd1-441c-85dd-c2565b7d4670
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:our_skills:bd67e594-b857-4881-9c3e-505c889e24af'

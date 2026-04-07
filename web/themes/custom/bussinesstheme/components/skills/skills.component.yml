@@ -1,0 +1,11 @@
+name: Skills
+description: Skills progress bars section
+props:
+  type: object
+  properties:
+    title:
+      type: string
+      default: "Our Skills"
+    description:
+      type: string
+      default: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
