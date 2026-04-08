@@ -14,7 +14,7 @@ mode: default
 content:
   field_location:
     type: simple_gmap
-    label: above
+    label: hidden
     settings:
       include_map: true
       include_static_map: false

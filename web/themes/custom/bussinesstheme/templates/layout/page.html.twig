@@ -2,6 +2,7 @@
 {# HERO SECTION #}
 {% include directory ~ '/components/hero/hero.twig' with { image: directory ~ '/images/hero.jpg' } %}
 
+{% include directory ~ '/components/why/why.twig' %}
 
 {% if page.why %}
 <section class="why">
@@ -25,11 +26,6 @@
 {% include directory ~ '/components/skills/skills.twig' %}
 
 
-{% if page.skills %}
-<section class="skills">
-  {{ page.skills }}
-</section>
-{% endif %}
 
 {% if page.works %}
 <section class="works">

@@ -1,11 +1,37 @@
-name: Why Choose Us
-description: Why choose us section with cards
+$schema: https://git.drupalcode.org/project/drupal/-/raw/10.0.x/core/assets/schemas/v1/component.schema.json
+
+name: Why Section
+description: "Why Choose Us section with cards"
+
 props:
   type: object
   properties:
     title:
       type: string
-    body:
+      title: Section Title
+
+    description_1:
       type: string
-    cards:
+      title: First paragraph
+
+    description_2:
+      type: string
+      title: Second paragraph
+
+    items:
       type: array
+      title: Cards
+      items:
+        type: object
+        properties:
+          icon:
+            type: string
+            title: Icon class (e.g. fa fa-target)
+
+          title:
+            type: string
+            title: Card title
+
+          text:
+            type: string
+            title: Card description

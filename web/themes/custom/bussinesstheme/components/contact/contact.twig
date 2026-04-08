@@ -3,21 +3,55 @@
 
     <!-- Heading -->
     <div class="contact-header">
-      <h2>{{ title }}</h2>
-      <p>{{ description }}</p>
+      <h2>Get in Touch</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Error aperiam consectetur rem edit in natos.
+      </p>
     </div>
 
-    <!-- Contact Cards -->
+    <!-- HARD CODED CONTACT CARDS -->
     <div class="contact-cards">
-      {% for item in items %}
-        <div class="contact-card">
-          <div class="icon">
-            {{ item.icon }}
-          </div>
-          <h4>{{ item.title }}</h4>
-          <p>{{ item.text }}</p>
+
+      <!-- Address -->
+      <div class="contact-card">
+        <div class="icon">
+          <i class="fas fa-map-marker-alt"></i>
         </div>
-      {% endfor %}
+        <h4>Address:</h4>
+        <p>2851 Watt Nusom Farm Road,<br>New York</p>
+      </div>
+
+      <!-- Mobile -->
+      <div class="contact-card">
+        <div class="icon">
+          <i class="fas fa-phone-alt"></i>
+        </div>
+        <h4>Mobile:</h4>
+        <p>+516-892-6897,<br>+585-457-5267</p>
+      </div>
+
+      <!-- Email -->
+      <div class="contact-card">
+        <div class="icon">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <h4>Email:</h4>
+        <p>info@example.com<br>support@example.com</p>
+      </div>
+
+      <!-- Timing -->
+      <div class="contact-card">
+        <div class="icon">
+          <i class="fas fa-clock"></i>
+        </div>
+        <h4>Timing:</h4>
+        <p>
+          Mon-Fri - 9:00 AM to 5:00 PM<br>
+          Sat - 10:00 AM to 1:00 PM
+        </p>
+      </div>
+
     </div>
 
     <!-- Contact Form -->
