@@ -5,8 +5,10 @@ dependencies:
   config:
     - block_content.type.get_in_touch
     - field.field.block_content.get_in_touch.field_contact_paragraph
+    - field.field.block_content.get_in_touch.field_text2
   module:
     - entity_reference_revisions
+    - text
 id: block_content.get_in_touch.default
 targetEntityType: block_content
 bundle: get_in_touch
@@ -18,6 +20,13 @@ content:
     settings:
       view_mode: default
       link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_text2:
+    type: text_default
+    label: visually_hidden
+    settings: {  }
     third_party_settings: {  }
     weight: 0
     region: content

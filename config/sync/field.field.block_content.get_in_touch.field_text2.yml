@@ -1,0 +1,24 @@
+uuid: cf6a6430-8127-4cea-ac94-89bbf3518e75
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.get_in_touch
+    - field.storage.block_content.field_text2
+    - filter.format.basic_html
+  module:
+    - text
+id: block_content.get_in_touch.field_text2
+field_name: field_text2
+entity_type: block_content
+bundle: get_in_touch
+label: text2
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long
