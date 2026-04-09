@@ -79,11 +79,11 @@
   transition: 0.3s;
 }
 .blog__btn:hover {
-  background: #333;
+  background: #ca6666;
 }
 .blog__meta {
   display: flex;
   justify-content: space-between;
   font-size: 13px;
-  color: #999;
+  color: #000;
 }/*# sourceMappingURL=blog.css.map */

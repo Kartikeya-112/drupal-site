@@ -49,7 +49,7 @@ settings:
   form_open_message: ''
   form_close_message: ''
   form_exception_message: ''
-  form_previous_submissions: true
+  form_previous_submissions: false
   form_confidential: false
   form_confidential_message: ''
   form_disable_remote_addr: false
@@ -151,7 +151,7 @@ settings:
   limit_total_interval: null
   limit_total_message: ''
   limit_total_unique: false
-  limit_user: null
+  limit_user: 5
   limit_user_interval: null
   limit_user_message: ''
   limit_user_unique: false
