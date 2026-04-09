@@ -1,0 +1,5 @@
+<?php
+
+function YOURTHEME_preprocess_node(&$variables) {
+  $variables['blog_title'] = 'Dynamic Blog Title ';
+}

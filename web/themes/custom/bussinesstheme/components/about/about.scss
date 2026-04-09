@@ -4,7 +4,7 @@
   overflow: hidden;
 }
 
-/* FIX DRUPAL WRAPPER */
+
 .about > div {
   display: flex;
   align-items: center;
@@ -13,7 +13,7 @@
   width: 100%;
 }
 
-/* IMAGE BLOCK */
+
 #block-bussinesstheme-about-img {
   flex: 1;
   order: 1;
@@ -31,7 +31,7 @@
   z-index: 2;
 }
 
-/* ORANGE CIRCLE */
+
 #block-bussinesstheme-about-img::before {
   content: "";
   position: absolute;
@@ -42,14 +42,13 @@
   z-index: 1;
 }
 
-/* TEXT BLOCK */
 #block-bussinesstheme-about2 {
   flex: 1;
   order: 2;
   max-width: 520px;
 }
 
-/* WHO WE ARE (FIRST DIV) */
+
 #block-bussinesstheme-about2 > div:first-child {
   font-size: 26px;
   font-weight: 700;
@@ -57,7 +56,7 @@
   margin-bottom: 15px;
 }
 
-/* PARAGRAPHS */
+
 #block-bussinesstheme-about2 > div:nth-child(2),
 #block-bussinesstheme-about2 > div:nth-child(3) {
   font-size: 16px;
@@ -66,7 +65,7 @@
   margin-bottom: 15px;
 }
 
-/* BUTTON */
+
 #block-bussinesstheme-about2 a {
   display: inline-block;
   margin-top: 20px;
@@ -80,17 +79,17 @@
   transition: all 0.3s ease;
 }
 
-/* BUTTON HOVER */
+
 #block-bussinesstheme-about2 a:hover {
   background: grey;
   color: #fff;
 }
-/* TARGET YOUR TEXT WRAPPER */
+
 .about-text {
   max-width: 520px;
 }
 
-/* WHO WE ARE */
+
 .about-text > div:first-child {
   font-size: 26px;
   font-weight: 700;
@@ -98,7 +97,7 @@
   margin-bottom: 15px;
 }
 
-/* PARAGRAPH */
+
 .about-text p {
   font-size: 16px;
   color: #6c757d;
@@ -106,7 +105,7 @@
   margin-bottom: 20px;
 }
 
-/* BUTTON WRAPPER */
+
 .about-text > div:last-child {
   margin-top: 10px;
 }

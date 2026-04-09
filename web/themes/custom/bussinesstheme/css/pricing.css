@@ -66,6 +66,9 @@
   text-align: center;
   padding: 25px;
 }
+.pricing-btn :hover {
+  background: #ff6a00;
+}
 
 .pricing-btn a {
   display: inline-block;

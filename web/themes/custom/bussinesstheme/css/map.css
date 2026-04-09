@@ -1,20 +1,19 @@
-section.location {
+section.map {
   width: 99.5%;
   margin: 0;
   padding: 0;
 }
 
-/* REMOVE TITLE (Location) */
-section.location > div > div > div:first-child {
+section.map > div > div > div:first-child {
   display: none !important;
 }
 
-section.location div {
+section.map div {
   margin: 0;
   padding: 0;
 }
 
-section.location iframe {
+section.map iframe {
   width: 99.5vw !important;
   height: 450px !important;
   display: block;

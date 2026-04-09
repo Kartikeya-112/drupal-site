@@ -9,8 +9,7 @@
 /* CONTAINER FIX */
 .navbar {
   width: 100%;
-  padding: 0 20px;   // 👈 reduce from 40 to 20 (IMPORTANT)
-
+  padding: 0 20px;   
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,7 +19,7 @@
   color: #ff6a2f;
   font-size: 32px;
   font-weight: 800;
-  flex-shrink: 0; // 👈 prevents shrinking
+  flex-shrink: 0; 
 }
 
 /* NAV FIX (MAIN) */
@@ -28,25 +27,25 @@
   display: flex;
   gap: 25px;
    margin-left: auto;
-  margin-right: 170px;  // 👈 THIS PUSHES MENU LEFT
+  margin-right: 170px;  
 }
 
 
 .nav a {
-  color: #fff;              // 👈 force white
-  text-decoration: none;   // 👈 remove underline
+  color: #fff;              
+  text-decoration: none;  
   font-weight: 500;
 
 }
 
 .nav a:hover {
-  color: #ff6a2f; // optional hover effect 🔥
+  color: #ff6a2f; 
 }
 
 
 .hero {
   background: #2f3f4c;
-padding: 160px 0 120px; // increased top padding  color: #fff;
+padding: 160px 0 120px; 
 }
 
 .hero__container {

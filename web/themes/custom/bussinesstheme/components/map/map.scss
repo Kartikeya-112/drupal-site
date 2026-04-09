@@ -4,7 +4,7 @@ section.map {
   padding: 0;
 }
  
-/* REMOVE TITLE (Location) */
+
 section.map > div > div > div:first-child {
   display: none !important;
 }

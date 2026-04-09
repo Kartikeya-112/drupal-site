@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_preprocess_page()
+ */
+function YOURTHEME_preprocess_page(&$variables) {
+  $variables['blog_dummy'] = 'This is coming from preprocess ';
+}
